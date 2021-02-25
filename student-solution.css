@@ -90,3 +90,17 @@
 }
 
 /*ESERCIZIO 10*/ 
+.ex-10-icon {
+    animation: loading 1s reverse linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*ESERCIZIO 11*/ 
