@@ -74,3 +74,19 @@
             brightness(1.1);
     border-radius: 5%;
 }
+
+/*ESERCIZIO 9*/
+.ex-9-img {
+    transition: filter 2s, 
+                transform 2s,
+                border-radius 2s;
+}
+
+.ex-9-img:hover {
+    transform: scale(1.5);
+    filter: sepia(.80)
+    brightness(1.1);
+    border-radius: 5%;
+}
+
+/*ESERCIZIO 10*/ 
