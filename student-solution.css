@@ -62,3 +62,15 @@
     filter: grayscale(1) 
             brightness(1.20);
 }
+
+/*ESERCIZIO 8*/
+.ex-8-img {
+    transition: filter 2s,
+                border-radius 2s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(.80)
+            brightness(1.1);
+    border-radius: 5%;
+}
